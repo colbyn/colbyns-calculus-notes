@@ -1,6 +1,5 @@
 output
 .DS_Store
-assets
 
 *.aux
 *.fdb_latexmk
