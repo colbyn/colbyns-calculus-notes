@@ -1,4 +1,5 @@
-# My Project
+# Notes for Stewart Calculus (8th edition)
+
 
 ## Compiling the PDF
 
