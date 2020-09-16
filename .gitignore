@@ -1,0 +1,10 @@
+output
+.DS_Store
+assets
+
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.pdf
+*.synctex.gz
