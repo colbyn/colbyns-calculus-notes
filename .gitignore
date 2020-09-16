@@ -6,5 +6,5 @@ assets
 *.fdb_latexmk
 *.fls
 *.log
-*.pdf
+main.pdf
 *.synctex.gz
