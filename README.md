@@ -1,7 +1,7 @@
 # Notes for Stewart Calculus (8th edition)
 
 
-<img src="assets/preview.png"/>
+<img src="./assets/preview.png"/>
 
 ## Compiling the PDF
 
