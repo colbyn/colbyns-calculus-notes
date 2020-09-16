@@ -1,6 +1,6 @@
 # Notes for Stewart Calculus (8th edition)
 
-![Preview](assets/preview.png)
+![Preview](./assets/preview.png)
 
 ## Compiling the PDF
 
