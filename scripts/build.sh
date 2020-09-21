@@ -19,3 +19,4 @@ bundle exec asciidoctor-pdf \
     $SRC_DIR/*.adoc
 
 rm -f $SRC_DIR/stem-*.png
+rm -f $SRC_DIR/stem-*.svg

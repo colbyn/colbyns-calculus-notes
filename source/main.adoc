@@ -105,10 +105,8 @@ The slope of the normal line is the negative reciprocal of the slope of the tang
 ++++
 \begin{equation}
 \begin{split}
-(\textcolor{red}{y} - \textcolor{blue}{y_1})
-    &= -\frac{1}{f^\prime(\textcolor{blue}{x_1})} (\textcolor{red}{x}-\textcolor{blue}{x_1}) \\
-(\textcolor{red}{y} - \textcolor{blue}{y_1})
-    &= - \frac{1}{\textcolor{blue}{m}} (\textcolor{red}{x}-\textcolor{blue}{x_1})
+(y - y_1) &= -\frac{1}{f^\prime(x_1)} (x-x_1) \\
+(y - y_1) &= - \frac{1}{m} (x-x_1)
 \end{split}
 \end{equation}
 ++++
