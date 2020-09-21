@@ -81,6 +81,8 @@ y - y_1) &= f^\prime(x_1)(x-x_1) \\
 \end{equation}
 ++++
 
+* Remember 
+
 ==== Alternative Overview
 
 [latexmath]
