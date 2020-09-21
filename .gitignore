@@ -1,9 +1,4 @@
 output
 .DS_Store
-
-*.aux
-*.fdb_latexmk
-*.fls
-*.log
-main.pdf
-*.synctex.gz
+assets
+stem-*.svg

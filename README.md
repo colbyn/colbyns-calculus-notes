@@ -1,6 +1,4 @@
-# Notes for Stewart Calculus (8th edition)
-
-![Preview](assets/preview.png)
+# Colbyn's Calculus Notes
 
 ## Compiling the PDF
 
@@ -11,5 +9,12 @@ $ ./scripts/build.sh
 Results in `./output/main.pdf`. 
 
 ## [Pre-built PDF](./release/main.pdf)
-A Pre-built PDF *may be* available under [./release/main.pdf](./release/main.pdf)
 
+A Pre-built PDF *may* be available under [./release/main.pdf](./release/main.pdf)
+
+## Dependencies
+
+```shell
+# required by asciidoctor-mathematical
+brew install glib gdk-pixbuf cairo pango cmake
+```

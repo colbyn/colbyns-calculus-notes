@@ -1,3 +1,3 @@
 set -e
 
-watchexec --exts tex --ignore output/ -- './scripts/build.sh && echo "\n==reloaded==\n"'
+watchexec --exts adoc,css,yml --ignore output/ -- './scripts/build.sh && echo reloaded && open --background output/main.pdf'
