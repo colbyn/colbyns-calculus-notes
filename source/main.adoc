@@ -1,6 +1,6 @@
 // :autofit-option:
 :stem: latexmath
-
+:toc:
 
 = Colbyn's Calculus Notes
 
@@ -16,6 +16,8 @@ f^\prime(x) =
 \frac{dy}{dx}f(x) =
 \frac{d}{dx}f(x)
 ++++
+
+==== Formal Limit Definition of A Derivative
 
 Derivative of latexmath:[f(x)=|x|] using the formal 'limit definition of a derivative':
 
@@ -75,13 +77,12 @@ f^\prime(x) &= \frac{|x|}{x}
 ++++
 \begin{equation}
 \begin{split}
-y - y_1) &= f^\prime(x_1)(x-x_1) \\
-(y - y_1) &= m(x-x_1)
+y - y_1 &= f^\prime(x_1)(x-x_1) \\
+y &= mx + b
 \end{split}
 \end{equation}
 ++++
 
-* Remember 
 
 ==== Alternative Overview
 
@@ -107,13 +108,16 @@ The slope of the normal line is the negative reciprocal of the slope of the tang
 ++++
 \begin{equation}
 \begin{split}
-(y - y_1) &= -\frac{1}{f^\prime(x_1)} (x-x_1) \\
-(y - y_1) &= - \frac{1}{m} (x-x_1)
+y - y_1 &= -\frac{1}{f^\prime(x_1)} (x-x_1) \\
+y &= -\frac{1}{m}x + b
 \end{split}
 \end{equation}
 ++++
 
 
+=== Derivative Continuity
+
+==== Continuous Piecewise Function
 
 
 
