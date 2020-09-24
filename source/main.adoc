@@ -6,8 +6,6 @@
 
 == Derivatives
 
-=== Limit Definition of A Derivative
-
 [latexmath]
 ++++
 f^\prime(x) =
@@ -70,6 +68,11 @@ f^\prime(x) &= \frac{|x|}{x}
 \end{equation}
 ++++
 
+=== Derivative Continuity
+==== Continuous Piecewise Function
+
+
+== Lines
 
 === Tangent Line
 
@@ -99,7 +102,7 @@ Generally, there are three things you will need when given some latexmath:[f(x)]
 * Once you have latexmath:[m], then solve for latexmath:[b] by plugging in some latexmath:[(x, y)] into your latexmath:[y = mx + b] equation.
 
 
-=== Normal Line
+=== Normal Lines
 
 
 The slope of the normal line is the negative reciprocal of the slope of the tangent line. Everything else is the same as the tangent line.
@@ -115,10 +118,19 @@ y &= -\frac{1}{m}x + b
 ++++
 
 
-=== Derivative Continuity
+=== Perpendicular Lines
 
-==== Continuous Piecewise Function
+The same as the normal line. According to these https://www.quora.com/What-is-the-differences-between-normal-and-perpendicular[Quora answers]:
 
+----
+A normal makes an angle of 90° with a 2 dimensional SURFACE
+while,
+A perpendicular makes an angle of 90° with a one dimensional LINE.
+----
+
+----
+Basically perpendicular relates to line and normal relates to a plane,but both make 90° with their respective counterparts. The later is a vector quantity, where the former is scalar.
+----
 
 
 
