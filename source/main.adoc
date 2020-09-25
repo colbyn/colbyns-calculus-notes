@@ -2,7 +2,18 @@
 :stem: latexmath
 :toc:
 
+
 = Colbyn's Calculus Notes
+
+.Locations
+****
+|===
+| Source Code | https://github.com/colbyn/colbyns-calculus-notes[GitHub.com/colbyn/colbyns-calculus-notes]
+| Online Edition | https://colbyn.github.io/colbyns-calculus-notes/[Colbyn.GitHub.io/colbyns-calculus-notes]
+|===
+****
+
+
 
 == Derivatives
 
@@ -15,9 +26,9 @@ f^\prime(x) =
 \frac{d}{dx}f(x)
 ++++
 
-==== Formal Limit Definition of A Derivative
+=== Formal Limit Definition of A Derivative
 
-Derivative of latexmath:[f(x)=|x|] using the formal 'limit definition of a derivative':
+**Derivative of latexmath:[f(x)=|x|] using the formal limit definition of a derivative**:
 
 [latexmath]
 ++++
@@ -44,7 +55,7 @@ f^\prime(x) &= \frac{|x|}{x}
 \end{equation}
 ++++
 
-Derivative of latexmath:[f(x)=|x|] using an `alternative limit definition of a derivative':
+**Derivative of latexmath:[f(x)=|x|] using an alternative limit definition of a derivative**:
 
 [latexmath]
 ++++
@@ -103,7 +114,7 @@ Generally, there are three things you will need when given some latexmath:[f(x)]
 
 
 === Normal Lines
-
+- https://www.desmos.com/calculator/ybtppzvv1a[Desmos Example of Normal Lines]
 
 The slope of the normal line is the negative reciprocal of the slope of the tangent line. Everything else is the same as the tangent line.
 
@@ -120,7 +131,7 @@ y &= -\frac{1}{m}x + b
 
 === Perpendicular Lines
 
-The same as the normal line. According to these https://www.quora.com/What-is-the-differences-between-normal-and-perpendicular[Quora answers]:
+The same as the Normal Lines. According to these https://www.quora.com/What-is-the-differences-between-normal-and-perpendicular[Quora answers]:
 
 ----
 A normal makes an angle of 90° with a 2 dimensional SURFACE
