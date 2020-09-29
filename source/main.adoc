@@ -13,6 +13,37 @@
 |===
 ****
 
+== Limits
+
+== Limits of Trigonometric Functions
+
+General reference:
+[latexmath]
+++++
+\begin{equation}
+\begin{split}
+\lim_{x \to a} \sin(x) &= \sin(a) \\
+\lim_{x \to a} \cos(x) &= \cos(a) \\
+\lim_{x \to a} \tan(x) &= \tan(a) \\
+\lim_{x \to a} \csc(x) &= \csc(a) \\
+\lim_{x \to a} \sec(x) &= \sec(a) \\
+\lim_{x \to a} \cot(x) &= \cot(a)
+\end{split}
+\end{equation}
+++++
+
+Others:
+[latexmath]
+++++
+\begin{equation}
+\begin{split}
+\lim_{x \to 0} \frac{\sin(x)}{x} &= 1 \\
+\lim_{x \to 0} \frac{1 - \cos(x)}{x} &= 0 \\
+\end{split}
+\end{equation}
+++++
+
+
 
 
 == Derivatives
@@ -80,8 +111,62 @@ f^\prime(x) &= \frac{|x|}{x}
 ++++
 
 === Derivative Continuity
+
+Is a derivative continuous at latexmath:[x = a]?
+
+First we ensure:
+[latexmath]
+++++
+\lim_{x \to a^{-}} f^\prime(x) = \lim_{x \to a^{+}} f^\prime(x) = \lim_{x \to a} f^\prime(x)
+++++
+then:
+[latexmath]
+++++
+\lim_{x \to a} f^\prime(x) = f^\prime(a)
+++++
+therefore the derivative is continuous and differentiable at latexmath:[x = a].
+
+
 ==== Continuous Piecewise Function
 
+===== Example
+
+Is this function differentiable at latexmath:[x = 2]?
+
+[latexmath]
+++++
+f(x) =
+\begin{cases}
+    x^2 - 3 & \text{if $x \lt 2$} \\
+    4x - 7 & \text{if $x \ge 2$}
+\end{cases}
+++++
+
+[latexmath]
+++++
+f^\prime(x) =
+\begin{cases}
+    2x & \text{if $x \lt 2$} \\
+    4 & \text{if $x \ge 2$}
+\end{cases}
+++++
+
+To check:
+[latexmath]
+++++
+\begin{equation}
+\begin{split}
+\lim_{x \to 2^{-}} f^\prime(x) &= 2(2) = 4 \\
+\lim_{x \to 2^{+}} f^\prime(x) &= 4 \\
+\text{therefore} \\
+\lim_{x \to 2} f^\prime(x) &= 4 \\
+\text{then we check} \\
+\lim_{x \to 2} f^\prime(x) &= f^\prime(2) \\
+\end{split}
+\end{equation}
+++++
+
+Therefore the derivative is continuous and differentiable at latexmath:[x = 2].
 
 == Lines
 
