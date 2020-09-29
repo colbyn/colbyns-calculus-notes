@@ -442,6 +442,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#_limits">Limits</a></li>
+<li><a href="#_limits_of_trigonometric_functions">Limits of Trigonometric Functions</a></li>
 <li><a href="#_derivatives">Derivatives</a>
 <ul class="sectlevel2">
 <li><a href="#_formal_limit_definition_of_a_derivative">Formal Limit Definition of A Derivative</a></li>
@@ -480,6 +482,47 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_limits">Limits</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_limits_of_trigonometric_functions">Limits of Trigonometric Functions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>General reference:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\begin{equation}
+\begin{split}
+\lim_{x \to a} \sin(x) &amp;= \sin(a) \\
+\lim_{x \to a} \cos(x) &amp;= \cos(a) \\
+\lim_{x \to a} \tan(x) &amp;= \tan(a) \\
+\lim_{x \to a} \csc(x) &amp;= \csc(a) \\
+\lim_{x \to a} \sec(x) &amp;= \sec(a) \\
+\lim_{x \to a} \cot(x) &amp;= \cot(a)
+\end{split}
+\end{equation}\]
+</div>
+</div>
+<div class="paragraph">
+<p>Others:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\begin{equation}
+\begin{split}
+\lim_{x \to 0} \frac{\sin(x)}{x} &amp;= 1 \\
+\lim_{x \to 0} \frac{1 - \cos(x)}{x} &amp;= 0 \\
+\end{split}
+\end{equation}\]
 </div>
 </div>
 </div>
@@ -554,9 +597,74 @@ f^\prime(x) &amp;= \frac{|x|}{x}
 </div>
 <div class="sect2">
 <h3 id="_derivative_continuity">Derivative Continuity</h3>
+<div class="paragraph">
+<p>Is a derivative continuous at \(x = a\)?</p>
+</div>
+<div class="paragraph">
+<p>First we ensure:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\lim_{x \to a^{-}} f^\prime(x) = \lim_{x \to a^{+}} f^\prime(x) = \lim_{x \to a} f^\prime(x)\]
+</div>
+</div>
+<div class="paragraph">
+<p>then:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\lim_{x \to a} f^\prime(x) = f^\prime(a)\]
+</div>
+</div>
+<div class="paragraph">
+<p>therefore the derivative is continuous and differentiable at \(x = a\).</p>
+</div>
 <div class="sect3">
 <h4 id="_continuous_piecewise_function">Continuous Piecewise Function</h4>
-
+<div class="sect4">
+<h5 id="_example">Example</h5>
+<div class="paragraph">
+<p>Is this function differentiable at \(x = 2\)?</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[f(x) =
+\begin{cases}
+    x^2 - 3 &amp; \text{if $x \lt 2$} \\
+    4x - 7 &amp; \text{if $x \ge 2$}
+\end{cases}\]
+</div>
+</div>
+<div class="stemblock">
+<div class="content">
+\[f^\prime(x) =
+\begin{cases}
+    2x &amp; \text{if $x \lt 2$} \\
+    4 &amp; \text{if $x \ge 2$}
+\end{cases}\]
+</div>
+</div>
+<div class="paragraph">
+<p>To check:</p>
+</div>
+<div class="stemblock">
+<div class="content">
+\[\begin{equation}
+\begin{split}
+\lim_{x \to 2^{-}} f^\prime(x) &amp;= 2(2) = 4 \\
+\lim_{x \to 2^{+}} f^\prime(x) &amp;= 4 \\
+\text{therefore} \\
+\lim_{x \to 2} f^\prime(x) &amp;= 4 \\
+\text{then we check} \\
+\lim_{x \to 2} f^\prime(x) &amp;= f^\prime(2) \\
+\end{split}
+\end{equation}\]
+</div>
+</div>
+<div class="paragraph">
+<p>Therefore the derivative is continuous and differentiable at \(x = 2\).</p>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -650,7 +758,7 @@ A perpendicular makes an angle of 90° with a one dimensional LINE.</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-09-24 16:28:56 -0600
+Last updated 2020-09-29 09:05:10 -0600
 </div>
 </div>
 <script type="text/x-mathjax-config">
