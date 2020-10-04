@@ -13,6 +13,8 @@
 |===
 ****
 
+New home: https://github.com/colbyn/colbyns-math-notes
+
 == Limits
 
 == Limits of Trigonometric Functions

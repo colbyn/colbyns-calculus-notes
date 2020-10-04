@@ -1,5 +1,7 @@
 # Colbyn's Calculus Notes
 
+Moved to: https://github.com/colbyn/colbyns-math-notes
+
 ## Compiling the PDF
 
 ```shell
